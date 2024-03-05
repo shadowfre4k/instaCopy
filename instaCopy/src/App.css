@@ -1,0 +1,13 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-items: baseline;
+  width: 100vw;
+  height: 100vh;
+  padding: 0%;
+}
+
+
+

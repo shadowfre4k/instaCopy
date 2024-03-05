@@ -1,0 +1,26 @@
+.mainNavContainer{
+  width: 30%;
+  height: 100%;
+  border:2px red solid;
+    
+  
+}
+
+.nav{
+    text-align: start;
+    color: black;
+    height: 5%;
+    
+}
+
+.navItems{
+    text-align: start;
+    height: 70%;
+}
+
+.navFooter{
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    justify-content: end;
+}
