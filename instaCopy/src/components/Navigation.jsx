@@ -5,14 +5,14 @@ export default function Navigation(){
         <div className='mainNavContainer'>
             <h1 className='nav'>Instagram</h1>
             <ul className='navItems'>
-                <li>Home</li>
-                <li>Search</li>
-                <li>Explore</li>
-                <li>Reels</li>
-                <li>Messages</li>
-                <li>Notifications</li>
-                <li>create</li>
-                <li>profile</li>
+                <p>Home</p>
+                <p>Search</p>
+                <p>Explore</p>
+                <p>Reels</p>
+                <p>Messages</p>
+                <p>Notifications</p>
+                <p>create</p>
+                <p>profile</p>
             </ul>
 
             <div className='navFooter'>

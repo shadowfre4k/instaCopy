@@ -1,7 +1,30 @@
 .mainBody{
     text-align: center;
-    color: aquamarine;
-    width: 70vw;
+    color: black;
+    width: 86.82%;
     height: 100%;
-    border:2px red solid  ;
+    margin-left: 10%; 
+}
+
+.informationContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    column-gap: 9% ;
+    margin-top: 1.5%;
+}
+
+.picture{
+    width: 5%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+}
+
+.information{
+    width:15%;
+    
 }

@@ -1,26 +1,45 @@
 .mainNavContainer{
-  width: 30%;
+  width: 13.18%;
   height: 100%;
-  border:2px red solid;
+  border-right: solid 1px grey;
+  position:fixed;
     
   
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left:3% ;
+    margin-top: 35px;
+    
+}
 .nav{
-    text-align: start;
+    
     color: black;
-    height: 5%;
+    height: 45px;
+    padding: 38px 38px 0px 38px;
+    font-size: 1.5rem;
     
 }
 
 .navItems{
     text-align: start;
-    height: 70%;
+    height: 80%;
+    gap: 35px;
+    font-size: 1.1rem;
 }
 
 .navFooter{
-    display: flex;
-    height: 20%;
-    flex-direction: column;
-    justify-content: end;
+   font-size: 1.1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   height: auto;
+   gap: 35px;
+   margin-left:50px ;
+   margin-top: 20px;
+
+   
 }
