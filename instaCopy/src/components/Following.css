@@ -1,0 +1,10 @@
+.followingContainer{
+    
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    flex-direction: row;
+    font-size: medium;
+    column-gap: 30px;
+    margin-left: 30px;
+}
