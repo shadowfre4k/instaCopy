@@ -1,7 +1,9 @@
+import './Details.css'
+
 export default function Details(){
     return(
     <div>
-        Details
+        <h1>It's ya boi</h1>
     </div>
     )
 }

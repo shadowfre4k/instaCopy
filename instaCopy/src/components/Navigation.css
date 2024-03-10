@@ -31,6 +31,12 @@ ul{
     font-size: 1.1rem;
 }
 
+
+.navSelfie{
+    width: 18px;
+    height: 18px;
+}
+
 .navFooter{
    font-size: 1.1rem;
    display: flex;
