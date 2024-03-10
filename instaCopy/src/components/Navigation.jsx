@@ -13,13 +13,13 @@ export default function Navigation(){
         <div className='mainNavContainer'>
             <h1 className='nav'>Instagram</h1>
             <ul className='navItems'>
-                <p> <GoHome value={{ className: 'react-icons' }}/> Home</p>
-                <p> <IoIosSearch /> Search</p>
-                <p> <MdOutlineExplore /> Explore</p>
-                <p> <BiMoviePlay /> Reels</p>
-                <p> <RiMessengerLine /> Messages</p>
-                <p> <FaRegHeart /> Notifications</p>
-                <p> <FaRegSquarePlus /> Create</p>
+                <p> <GoHome /> Home</p>
+                <p> <IoIosSearch />{`Search`}</p>
+                <p> <MdOutlineExplore /> {`Explore`}</p>
+                <p> <BiMoviePlay /> {`Reels`}</p>
+                <p> <RiMessengerLine /> {`Messages`}</p>
+                <p> <FaRegHeart /> {`Notifications`}</p>
+                <p> <FaRegSquarePlus /> {`Create`}</p>
                 <p> <img className='navSelfie' src={selfie} alt ="navSelfie" /> Profile</p>
             </ul>
 

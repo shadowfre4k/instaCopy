@@ -1,8 +1,6 @@
-
-
 .mainPic{
     display: flex;
-    border: solid 1px black;
+    border: solid 3px grey;
     border-radius:50% ;
     padding: 2%;
 }

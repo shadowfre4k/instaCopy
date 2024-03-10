@@ -1,0 +1,8 @@
+.bubbles{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    color: aqua;
+}

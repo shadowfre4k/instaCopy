@@ -3,6 +3,7 @@ import Picture from './Picture'
 import UserName from './UserName'
 import Following from './Following'
 import Details from './Details'
+import StoryBubbles from './StoryBubbles'
 
 export default function Body(){
     return(
@@ -14,6 +15,10 @@ export default function Body(){
                     <Following />
                     <Details />
                 </div>
+               
+            </div>
+            <div className='storyBubbles'>
+                    <StoryBubbles/>
             </div>
         </h1>
     )
