@@ -1,12 +1,19 @@
 import './StoryBubbles.css'
+import Bubble from './Bubble'
 
-export default function Body(){
+export default function StoryBubbles(){
     return(
-        <ul className="bubbles">
-            <li>bubble</li>
-            <li>bubble</li>
-            <li>bubble</li>
-            <li>bubble</li>
-        </ul>
+        
+            <ul className="bubblesContainer">
+                <Bubble />
+                <Bubble />
+                <Bubble />
+                <Bubble />
+                <Bubble />
+                <Bubble />
+                <Bubble />
+            </ul>
+            
+        
     )
 }
