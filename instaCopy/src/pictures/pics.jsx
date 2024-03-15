@@ -1,10 +1,10 @@
 const pics = [
 {
-   bubblePic :  "pictures/Selfie.jpg",
+   bubblePic :  "Selfie.jpg",
    bubbleTitle:"Ya boi",
 },
 {
-    bubblePic :  "./pictures/Selfie.jpg",
+    bubblePic :  "../pictures/Selfie.jpg",
     bubbleTitle:"Again",
  },
  {
